@@ -1,0 +1,72 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812e8: call_start_cpu1 at /home/plucca/esp/esp-idf/components/esp_system/port/cpu_start.c:159
+[0m
+[0;33m0x400de257: task_wdt_timeout_handling at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:489 (discriminator 3)
+0x400de624: task_wdt_isr at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:565
+0x40082b85: _xt_lowint1 at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1240
+0x40083173: esp_timer_impl_get_counter_reg at /home/plucca/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c:127 (discriminator 1)
+0x40083187: esp_timer_impl_get_time at /home/plucca/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c:140
+0x400d6df3: millis at /home/plucca/esp/sample_project/components/arduino/cores/esp32/esp32-hal-misc.c:199
+0x400d6a28: app_main at /home/plucca/esp/sample_project/main/main.cpp:32 (discriminator 1)
+0x400efaa0: main_task at /home/plucca/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+0x40088e3d: vPortTaskWrapper at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400de257: task_wdt_timeout_handling at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:489 (discriminator 3)
+0x400de624: task_wdt_isr at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:565
+0x40082b85: _xt_lowint1 at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1240
+0x4000d05d: __udivdi3 in ROM
+0x400d6dff: millis at /home/plucca/esp/sample_project/components/arduino/cores/esp32/esp32-hal-misc.c:199
+0x400d6a28: app_main at /home/plucca/esp/sample_project/main/main.cpp:32 (discriminator 1)
+0x400efaa0: main_task at /home/plucca/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+0x40088e3d: vPortTaskWrapper at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400de257: task_wdt_timeout_handling at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:489 (discriminator 3)
+0x400de624: task_wdt_isr at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:565
+0x40082b85: _xt_lowint1 at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1240
+0x4008316f: esp_timer_impl_get_counter_reg at /home/plucca/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c:127 (discriminator 1)
+0x40083187: esp_timer_impl_get_time at /home/plucca/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c:140
+0x400d6df3: millis at /home/plucca/esp/sample_project/components/arduino/cores/esp32/esp32-hal-misc.c:199
+0x400d6a28: app_main at /home/plucca/esp/sample_project/main/main.cpp:32 (discriminator 1)
+0x400efaa0: main_task at /home/plucca/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+0x40088e3d: vPortTaskWrapper at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400de257: task_wdt_timeout_handling at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:489 (discriminator 3)
+0x400de624: task_wdt_isr at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:565
+0x40082b85: _xt_lowint1 at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1240
+0x4008317b: esp_timer_impl_get_counter_reg at /home/plucca/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c:128 (discriminator 1)
+0x40083187: esp_timer_impl_get_time at /home/plucca/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c:140
+0x400d6df3: millis at /home/plucca/esp/sample_project/components/arduino/cores/esp32/esp32-hal-misc.c:199
+0x400d6a28: app_main at /home/plucca/esp/sample_project/main/main.cpp:32 (discriminator 1)
+0x400efaa0: main_task at /home/plucca/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+0x40088e3d: vPortTaskWrapper at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400de257: task_wdt_timeout_handling at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:489 (discriminator 3)
+0x400de624: task_wdt_isr at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:565
+0x40082b85: _xt_lowint1 at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1240
+0x40083181: esp_timer_impl_get_counter_reg at /home/plucca/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c:136
+0x400d6a28: app_main at /home/plucca/esp/sample_project/main/main.cpp:32 (discriminator 1)
+0x400efaa0: main_task at /home/plucca/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+0x40088e3d: vPortTaskWrapper at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400de257: task_wdt_timeout_handling at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:489 (discriminator 3)
+0x400de624: task_wdt_isr at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:565
+0x40082b85: _xt_lowint1 at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1240
+0x40083181: esp_timer_impl_get_counter_reg at /home/plucca/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c:136
+0x400d6a28: app_main at /home/plucca/esp/sample_project/main/main.cpp:32 (discriminator 1)
+0x400efaa0: main_task at /home/plucca/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+0x40088e3d: vPortTaskWrapper at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400de257: task_wdt_timeout_handling at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:489 (discriminator 3)
+0x400de624: task_wdt_isr at /home/plucca/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:565
+0x40082b85: _xt_lowint1 at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1240
+0x4008316f: esp_timer_impl_get_counter_reg at /home/plucca/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c:127 (discriminator 1)
+0x40083187: esp_timer_impl_get_time at /home/plucca/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c:140
+0x400d6df3: millis at /home/plucca/esp/sample_project/components/arduino/cores/esp32/esp32-hal-misc.c:199
+0x400d6a28: app_main at /home/plucca/esp/sample_project/main/main.cpp:32 (discriminator 1)
+0x400efaa0: main_task at /home/plucca/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 13)
+0x40088e3d: vPortTaskWrapper at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0m

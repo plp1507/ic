@@ -1,0 +1,23 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081314: call_start_cpu1 at /home/plucca/esp/esp-idf/components/esp_system/port/cpu_start.c:159
+[0m
+[0;33m0x40084d52: esp_crosscore_isr at /home/plucca/esp/esp-idf/components/esp_system/crosscore_int.c:96
+0x40082bb1: _xt_lowint1 at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1240
+0x40085057: xt_utils_wait_for_intr at /home/plucca/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/plucca/esp/esp-idf/components/esp_hw_support/cpu.c:111
+0x400d29ab: esp_vApplicationIdleHook at /home/plucca/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+0x40088096: prvIdleTask at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4439 (discriminator 1)
+0x40089671: vPortTaskWrapper at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40084d52: esp_crosscore_isr at /home/plucca/esp/esp-idf/components/esp_system/crosscore_int.c:96
+0x40082bb1: _xt_lowint1 at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1240
+0x40085057: xt_utils_wait_for_intr at /home/plucca/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/plucca/esp/esp-idf/components/esp_hw_support/cpu.c:111
+0x400d29ab: esp_vApplicationIdleHook at /home/plucca/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+0x40088096: prvIdleTask at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4439 (discriminator 1)
+0x40089671: vPortTaskWrapper at /home/plucca/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0m
